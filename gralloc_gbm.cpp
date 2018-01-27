@@ -24,7 +24,7 @@
 
 #define LOG_TAG "GRALLOC-GBM"
 
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/atomic.h>
 #include <cutils/properties.h>
 #include <stdlib.h>
@@ -34,6 +34,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <assert.h>
+#include <unistd.h>
 
 #include <hardware/gralloc.h>
 #include <system/graphics.h>
